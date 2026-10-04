@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Magic 8 Ball",
+    "slug": "lab04-magic-8-ball",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B1120",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.nguyenvanrin.lab04magic8ball"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
